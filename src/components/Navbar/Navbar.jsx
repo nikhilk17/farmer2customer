@@ -107,14 +107,31 @@ const Navbar = () => {
     <Hidden smDown>
       <div className='flex items-center justify-items-center'>
         <ul>
-          <p onClick={()=>navigate(`/products`)}>products</p>
-          {MenuLinks.map((menu) => (
+          {/* <p >products</p> */}
+          {/* {MenuLinks.map((menu) => (
             <li key={menu.id} className='inline-block mx-5 '>
-              <a href={menu.navigate} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold'>
+              <a className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold'>
                 {menu.name}
               </a>
             </li>
-          ))}
+          ))} */}
+          <li className='inline-block mx-5 '>
+              <a onClick={()=>navigate(`/`)} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold p-3'>
+                Home
+              </a>
+              <a onClick={()=>navigate(`/products`)} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold p-3'>
+                Products
+              </a>
+              <a onClick={()=>navigate(`/services`)} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold p-3'>
+                Services
+              </a>
+              <a onClick={()=>navigate(`/#footer`)} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold p-3'>
+                Contact
+              </a>
+              <a onClick={()=>navigate(`/#footer`)} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold p-3'>
+                About
+              </a>
+            </li>
         </ul>
       </div>
     </Hidden>
