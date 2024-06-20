@@ -1,0 +1,19 @@
+.productCard .textPart{
+    transition: transform .3s ease-out;
+}
+.productCard:hover .textPart{
+    transform: translateY(-1rem);
+}
+.productCard:hover{
+    box-shadow: 0 0 1rem rgba(0,0,0,.2);
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .product-card-wrapper {
+    width: calc(25% -1rem);
+    padding: 0.5rem;
+  }

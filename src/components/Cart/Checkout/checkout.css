@@ -1,0 +1,9 @@
+.checkout-button:hover {
+    opacity: 1 !important; /* Prevents the button from disappearing on hover */
+    background-color: #28B463 !important; /* Keeps the background color the same on hover */
+  }
+  
+  .checkout-button {
+    font-family: 'sans-serif'; /* Replace 'Your Font Family' with the actual font family you want to use */
+    font-size: 16px; /* Adjust as needed */
+  }
