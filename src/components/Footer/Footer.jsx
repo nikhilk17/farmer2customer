@@ -5,22 +5,22 @@ import React from 'react';
 import { useGSAP } from '@gsap/react';
 
 const Footer = () => {
-    useGSAP(() => {
-         gsap.from(".footer .foot .letter", {
-            y: -100,
-            opacity: 0,
-            delay: 1,
-            duration:5,
-            animation: "ease-out",
-            stagger: 0.3,
-            scrollTrigger: {
-                trigger: ".footer .foot",
-                scroller: "body",   
-                start: "top 75%",
-                end: "bottom 100%",
-                scrub: 7,
+    // useGSAP(() => {
+    //      gsap.from(".footer .foot .letter", {
+    //         y: -100,
+    //         opacity: 0,
+    //         delay: 1,
+    //         duration:5,
+    //         animation: "ease-out",
+    //         stagger: 0.3,
+    //         scrollTrigger: {
+    //             trigger: ".footer .foot",
+    //             scroller: "body",   
+    //             start: "top 75%",
+    //             end: "bottom 100%",
+    //             scrub: 7,
             
-            }})})
+    //         }})})
     return (
         <div id="footer" className='footer h-screen bg-black font-josefin'>
             <div className='flex flex-col gap-[105px] px-10 py-14 text-white'>
