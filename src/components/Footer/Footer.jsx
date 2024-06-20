@@ -52,7 +52,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='h-[210px] w-full py-9'>
-                        <h1 className='text-[9.5vw] font-semibold overflow-hidden'>
+                        <h1 className='text-[9vw] font-semibold overflow-hidden'>
                             {"FARMER TO CUSTOMER".split("").map((char, index) =>
                                 <span className='letter -tracking-[.12em]' key={index}>{char}</span>
                             )}

@@ -63,7 +63,7 @@ const Services = () => {
                     <h1 className='text-6xl  mt-4 underline decoration-2 font-josefin font-medium text-red-900'>User Friendly:</h1>
                     <br />
                     <p className='text-2xl font-josefin ml-2 text-red-800'>
-                    Fair trade is a global movement that seeks to promote fairness and equity in international trade. It aims to address the imbalance of power and wealth between producers in developing countries and buyers in wealthier nations by ensuring fair wages, safe working conditions, and sustainable practices.
+                    Creating a user-friendly website for connecting farmers with customers involves intuitive navigation with clear menus and search functionality, a responsive and accessible design, and clean layout. Farmer profiles should be detailed with information about their farms, practices, and products, including reviews and ratings.
                     </p>
                 </div>
                 </div>
@@ -76,7 +76,7 @@ const Services = () => {
                     <h1 className='text-6xl  mt-4 underline decoration-2 font-josefin font-medium text-yellow-900'>Quality Control:</h1>
                     <br />
                     <p className='text-2xl font-josefin ml-2 text-yellow-800'>
-                    Fair trade is a global movement that seeks to promote fairness and equity in international trade. It aims to address the imbalance of power and wealth between producers in developing countries and buyers in wealthier nations by ensuring fair wages, safe working conditions, and sustainable practices.
+                    Quality control is a crucial process ensuring that products meet specific standards of quality and safety before reaching consumers. It involves systematic procedures for checking, testing, and inspecting products at various stages of production to identify and rectify defects. 
                     </p>
                 </div>
                 </div>
@@ -85,11 +85,11 @@ const Services = () => {
                 <div className='w-[25vw] rounded-[35px]'>
                     <img src="https://images.unsplash.com/photo-1556740720-776b84291f8e?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className=' h-full p-2 rounded-[33px]'/>
                 </div>
-                <div className='flex flex-col w-[37vw] rounded-[35px] p-9'>
+                <div className='flex flex-col w-[37vw] rounded-[35px] p-6'>
                     <h1 className='text-6xl  mt-4 underline decoration-2 font-josefin font-medium text-green-900'>Secure Payment:</h1>
                     <br />
-                    <p className='text-2xl font-josefin ml-2 text-green-800'>
-                    Fair trade is a global movement that seeks to promote fairness and equity in international trade. It aims to address the imbalance of power and wealth between producers in developing countries and buyers in wealthier nations by ensuring fair wages, safe working conditions, and sustainable practices.
+                    <p className='text-2xl font-josefin ml-1 text-green-800'>
+                    Secure payment is essential for protecting customers’ financial information during online transactions. It involves using advanced encryption technologies and secure protocols to safeguard data against unauthorized access and fraud. Secure payment systems not only build customer trust and confidence but also help prevent financial losses and maintain the integrity of the online shopping experience.
                     </p>
                 </div>
                 </div>
