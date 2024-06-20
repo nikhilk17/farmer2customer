@@ -23,7 +23,7 @@ const Category = () => {
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-4' onClick={()=>navigate(`/products/category/${fruit}`)}>Explore Now</button>
             </div>
             <div>
-              <img src='src/components/Category/fruits.png' alt='fresh fruits' className='w-[300px] h-[250px] mt-6' />
+              <img src='https://i.postimg.cc/CL2cs9zH/fruits.png' alt='fresh fruits' className='w-[300px] h-[250px] mt-6' />
             </div>
           </div >
           {/* //second div */}
@@ -34,7 +34,7 @@ const Category = () => {
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-4' onClick={()=>navigate(`/products/category/${grain}`)} >Explore Now</button>
             </div>
             <div>
-              <img src='src/components/Category/grains.png' alt='fresh fruits' className='w-[300px] h-[350px] -mt-10 ml-[20px]' />
+              <img src='https://i.postimg.cc/fWB2JVsP/grains.png' alt='fresh fruits' className='w-[300px] h-[350px] -mt-10 ml-[20px]' />
             </div>
           </div >
           {/* Third category */}
@@ -45,7 +45,7 @@ const Category = () => {
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-6' onClick={()=>navigate(`/products/category/${vegetable}`)}>Explore Now</button>
             </div>
             <div>
-              <img src='src/components/Category/vegetables.png' alt='fresh fruits' className='w-[400px] h-[350px] -mt-10 ml-[20px]' />
+              <img src='https://i.postimg.cc/y8SvQnRq/vegetables.png' alt='fresh fruits' className='w-[400px] h-[350px] -mt-10 ml-[20px]' />
             </div>
           </div >
           {/* forth */}
@@ -56,7 +56,7 @@ const Category = () => {
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-6' onClick={()=>navigate(`/products/category/${nut}`)}>Explore Now</button>
             </div>
             <div>
-              <img src='src/components/Category/nuts.png' alt='fresh fruits' className='w-[400px] h-[400px] -mt-10 ml-[20px]' />
+              <img src='https://i.postimg.cc/bNr6bqNw/nuts.png' alt='fresh fruits' className='w-[400px] h-[400px] -mt-10 ml-[20px]' />
             </div>
           </div >
           {/* //Fifth */}

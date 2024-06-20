@@ -47,7 +47,7 @@ const Footer = () => {
                             <p>Hyderabad--India</p>
                         </div>
                         <div className='flex gap-20 text-lg'>
-                            <p>f2c@gmail.com</p>
+                        <a href="mailto:farmertowholesalecustomer@gmail.com">f2c@gmail.com</a>
                             <p>Legal ©2023</p>
                         </div>
                     </div>
@@ -58,6 +58,7 @@ const Footer = () => {
                             )}
                         </h1>
                     </div>
+                    <p>For enqueries contact <a href="tel:9063652368">91+ 9063652368</a></p>
                 </div>
             </div>
         </div>
