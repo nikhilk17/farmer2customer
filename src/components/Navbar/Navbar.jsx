@@ -12,27 +12,27 @@ const MenuLinks = [
   {
     id: 1,
     name: 'Home',
-    link: "/",
+    navigate: "/",
   },
   {
     id: 2,
     name: 'Products',
-    link: "/products",
+    navigate: "/products",
   },
   {
     id: 3,
     name: 'Services',
-    link: "/#services",
+    navigate: "/#services",
   },
   {
     id: 4,
     name: 'Contact',
-    link: "/#footer",
+    navigate: "/#footer",
   },
   {
     id: 5,
     name: 'About',
-    link: "/#",
+    navigate: "/#",
   },
   // {
   //   id: 6,
@@ -109,7 +109,7 @@ const Navbar = () => {
         <ul>
           {MenuLinks.map((menu) => (
             <li key={menu.id} className='inline-block mx-5 '>
-              <a href={menu.link} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold'>
+              <a href={menu.navigate} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold'>
                 {menu.name}
               </a>
             </li>
