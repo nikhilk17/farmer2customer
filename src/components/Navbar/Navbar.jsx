@@ -107,6 +107,7 @@ const Navbar = () => {
     <Hidden smDown>
       <div className='flex items-center justify-items-center'>
         <ul>
+          <p onClick={()=>navigate(`/products`)}>products</p>
           {MenuLinks.map((menu) => (
             <li key={menu.id} className='inline-block mx-5 '>
               <a href={menu.navigate} className='hover:text-green-500  text-lg hover:border-b-2 hover:border-green-400 font-semibold'>
