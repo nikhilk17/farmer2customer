@@ -52,13 +52,13 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='h-[210px] w-full max-sm:py-20'>
-                        <h1 className='text-[8.5vw] font-semibold'>
+                        <h1 className='lg:text-[9vw] md:text-[8vw] max-sm:text-5xl font-semibold'>
                             {"FARMER TO CUSTOMER".split("").map((char, index) =>
-                                <span className='letter -tracking-[.1em]' key={index}>{char}</span>
+                                <span className='letter -tracking-[.13em]' key={index}>{char}</span>
                             )}
                         </h1>
                     </div>
-                    <p className='-mt-5'>For enqueries contact <a href="tel:9063652368">91+ 9063652368</a></p>
+                    <p className='-mt-3'>For enqueries contact <a href="tel:9063652368">91+ 9063652368</a></p>
                 </div>
             </div>
         </div>

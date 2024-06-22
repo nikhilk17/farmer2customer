@@ -30,7 +30,7 @@ const Category = () => {
           <div className='flex border rounded-3xl h-[340px] w-[390px] bg-gradient-to-br from-yellow-300 to-yellow-100 p-5'>
             <div>
               <p className='text-yellow-600 text-4xl mt-24'>Fresh</p>
-              <p className='text-yellow-600 text-6xl mt-3'>Grains</p>
+              <p className='text-yellow-600 text-6xl mt-3 max-sm:text-3xl'>Grains</p>
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-4' onClick={()=>navigate(`/products/category/${grain}`)} >Explore Now</button>
             </div>
             <div>
@@ -41,7 +41,7 @@ const Category = () => {
           <div className='flex border rounded-3xl h-[340px] w-[545px] bg-gradient-to-br from-red-300 to-red-100 p-5 md:w-[380px] max-md:w-[390px] lg:w-[530px]'>
             <div>
               <p className='text-red-600 text-4xl mt-24'>Fresh</p>
-              <p className='text-red-600  mt-3 max-sm:text-4xl lg:text-4xl'>Vegetables</p>
+              <p className='text-red-600  mt-3 max-sm:text-2xl lg:text-4xl'>Vegetables</p>
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-6' onClick={()=>navigate(`/products/category/${vegetable}`)}>Explore Now</button>
             </div>
             <div>
@@ -52,11 +52,11 @@ const Category = () => {
           <div className='flex border rounded-3xl h-[340px] bg-gradient-to-br from-orange-300 to-orange-100 p-5 md:w-[390px] max-md:w-[390px] lg:w-[530px]'>
             <div>
               <p className='text-orange-600 text-4xl mt-24'>Fresh</p>
-              <p className='text-orange-600 text-6xl mt-3'>Nuts</p>
+              <p className='text-orange-600 text-6xl mt-3 max-sm:text-3xl'>Nuts</p>
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-6' onClick={()=>navigate(`/products/category/${nut}`)}>Explore Now</button>
             </div>
             <div>
-              <img src='https://i.postimg.cc/bNr6bqNw/nuts.png' alt='fresh fruits' className='w-[400px] h-[400px] -mt-10 ml-[20px] max-sm:w-[420px]' />
+              <img src='https://i.postimg.cc/bNr6bqNw/nuts.png' alt='fresh fruits' className='w-[400px] h-[400px] -mt-10 ml-[20px]' />
             </div>
           </div >
           {/* //Fifth */}
