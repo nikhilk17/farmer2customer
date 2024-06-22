@@ -26,7 +26,7 @@ const LoginForm = () => {
         console.log("User data",userData)
     }
   return (
-    <div className='ml-10 mr-10'>
+    <div>
       <form onSubmit={handleSubmit}>
         <Grid container spacing={3}>
             <Grid item xs={12}>
