@@ -27,7 +27,8 @@ const RegisterForm = () => {
         dispatch(register(userData))
     };
   return (
-    <div>
+    
+    <div className='ml-10 mr-10'>
       <form onSubmit={handleSubmit}>
         <Grid container spacing={3}>
             <Grid item xs={12} sm={6}>

@@ -15,7 +15,7 @@ const Hero = () => {
             <p className={isMobile ? 'ml-12 text-lg font-bold font-merienda' : 'ml-3 text-xl font-bold font-merienda'}>Connecting Farmers and Families!</p>
         </div>
         <div className={isMobile ? 'w-full' : ''}>
-            <img src="https://i.postimg.cc/gkKYwqjW/hero.png" alt='hero' className={isMobile ? 'w-full h-auto' : 'h-[750px] w-[75vw]'} />
+            <img src="https://i.postimg.cc/gkKYwqjW/hero.png" alt='hero' className={isMobile ? 'w-full h-auto mt-20' : 'h-[750px] w-[75vw]'} />
         </div>
      </div>
      </>

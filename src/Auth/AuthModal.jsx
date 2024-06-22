@@ -11,6 +11,7 @@ const style = {
   width: 500,
   bgcolor: 'background.paper',
   p: 4,
+  
 };
 const AuthModal = ({handleClose,open}) => {
   const location=useLocation();

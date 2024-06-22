@@ -16,7 +16,7 @@ const Category = () => {
         <h1 className='p-4 text-center text-6xl font-josefin underline decoration-2 text-[#ff9902] ' >Categories</h1>
         <div className='flex flex-wrap px-10 gap-9 font-josefin'>
           {/* //first category */}
-          <div className='flex border rounded-3xl h-[340px] w-[370px] bg-gradient-to-br from-green-300 to-green-100 p-5'>
+          <div className='flex border rounded-3xl h-[340px] w-[390px] bg-gradient-to-br from-green-300 to-green-100 p-5 md:w-[380px]'>
             <div>
               <p className='text-[#006b07] text-4xl mt-24'>Fresh</p>
               <p className='text-[#006b07] text-6xl mt-2'>Fruits</p>
@@ -38,32 +38,32 @@ const Category = () => {
             </div>
           </div >
           {/* Third category */}
-          <div className='flex border rounded-3xl h-[340px] w-[545px] bg-gradient-to-br from-red-300 to-red-100 p-5 '>
+          <div className='flex border rounded-3xl h-[340px] w-[545px] bg-gradient-to-br from-red-300 to-red-100 p-5 md:w-[380px] max-md:w-[390px] lg:w-[530px]'>
             <div>
               <p className='text-red-600 text-4xl mt-24'>Fresh</p>
-              <p className='text-red-600 text-6xl mt-3'>Vegetables</p>
+              <p className='text-red-600  mt-3 max-sm:text-4xl lg:text-4xl'>Vegetables</p>
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-6' onClick={()=>navigate(`/products/category/${vegetable}`)}>Explore Now</button>
             </div>
             <div>
-              <img src='https://i.postimg.cc/y8SvQnRq/vegetables.png' alt='fresh fruits' className='w-[400px] h-[350px] -mt-10 ml-[20px]' />
+              <img src='https://i.postimg.cc/y8SvQnRq/vegetables.png' alt='fresh fruits' className='w-[400px] h-[350px] -mt-10 ml-[20px] max-sm:w-[430px]' />
             </div>
           </div >
           {/* forth */}
-          <div className='flex border rounded-3xl h-[340px] w-[530px] bg-gradient-to-br from-orange-300 to-orange-100 p-5'>
+          <div className='flex border rounded-3xl h-[340px] bg-gradient-to-br from-orange-300 to-orange-100 p-5 md:w-[390px] max-md:w-[390px] lg:w-[530px]'>
             <div>
               <p className='text-orange-600 text-4xl mt-24'>Fresh</p>
               <p className='text-orange-600 text-6xl mt-3'>Nuts</p>
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-6' onClick={()=>navigate(`/products/category/${nut}`)}>Explore Now</button>
             </div>
             <div>
-              <img src='https://i.postimg.cc/bNr6bqNw/nuts.png' alt='fresh fruits' className='w-[400px] h-[400px] -mt-10 ml-[20px]' />
+              <img src='https://i.postimg.cc/bNr6bqNw/nuts.png' alt='fresh fruits' className='w-[400px] h-[400px] -mt-10 ml-[20px] max-sm:w-[420px]' />
             </div>
           </div >
           {/* //Fifth */}
-          <div className='flex border rounded-3xl h-[340px] w-[390px] bg-gradient-to-br from-sky-300 to-sky-200 p-5'>
+          <div className='flex border rounded-3xl h-[340px] w-[380px] bg-gradient-to-br from-sky-300 to-sky-200 p-5'>
             <div>
               <p className='text-sky-600 text-4xl mt-24'>Dairy</p>
-              <p className='text-sky-600 text-6xl mt-3 z-index-40'>Products</p>
+              <p className='text-sky-600 text-6xl mt-3 z-index-40 max-sm:text-4xl'>Products</p>
               <button className='w-[9rem] border-solid border-2 border-black rounded-full text-black px-2 py-2 font-bold text-lg mt-4' onClick={()=>navigate(`/products/category/${dairy}`)}>Explore Now</button>
             </div>
             <div>

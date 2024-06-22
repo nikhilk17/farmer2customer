@@ -182,7 +182,7 @@ export default function ProductDetails() {
         </section>
         {/* rating and review */}
         <section>
-          <h1 className='font-semibold text-lg pb-4'>Recent Review & Rating</h1>
+          <h1 className='font-semibold text-lg pb-4 max-sm:p-5 max-sm:flex max-sm:flex-cols'>Recent Review & Rating</h1>
           <div className='border p-5'>
             <Grid container spacing={7}>
               <Grid item xs={7}>
@@ -250,7 +250,7 @@ export default function ProductDetails() {
         {/* similar products */}
         <section className='pt-10 pb-7 px-6'>
           <h1 className='py-5 text-2xl font-bold font-josefin'>Similar products</h1>
-          <div className='flex flex-wrap space-y-5 gap-9'>
+          <div className='flex flex-wrap space-y-5 gap-9 max-sm:pl-6'>
           {products.products?.slice(0, 4).map((item)=>
         <ProductCard key={item.id} item={item}/>
         )}

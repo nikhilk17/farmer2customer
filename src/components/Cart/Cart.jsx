@@ -31,7 +31,7 @@ const Cart = () => {
                 </div>
 
                 {cart.cart?.cartItems.length > 0 && (
-                    <div className='px-5 sticky top-0 lg:h-[100vh] mt-5 lg:mt-0 sm:[20vw]'>
+                    <div className='px-5 sticky top-0 lg:h-[100vh] mt-5 lg:mt-0 max-sm:[20vw] '>
                         <div className='border p-3'>
                             <p className='uppercase font-bold opacity-60 pb-4'>Price Details</p>
                             <hr />

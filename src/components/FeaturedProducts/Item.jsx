@@ -18,7 +18,7 @@ const Item = (props) => {
       {/* second */}
       <div className='bg-zinc-0 h-[400px] w-[600px] px-10'>
         <div>
-          <img src={props.image} alt='featured product' className='w-[500px] h-[350px] mt-6 rounded-[35px]' />
+          <img src={props.image} alt='featured product' className='w-[500px] h-[350px] max-sm:w-[600px] mt-6 rounded-[35px]' />
         </div>
       </div>
     </div>

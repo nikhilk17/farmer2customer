@@ -37,7 +37,7 @@ const Services = () => {
     return (
         <>
             {!isSmallDevice && (
-                <div id="services" className='boxes bg-[#ECF1E6] overflow-hidden h-[120vh]'>
+                <div id="services" className='boxes bg-[#ECF1E6] overflow-hidden h-[120vh] md:hidden sm:hidden lg:block'>
                     <h1 className='p-4 text-center text-6xl font-josefin underline decoration-2 text-green-400 tracking-wide mt-10' >Services</h1>
                     <div className='box flex w-[400vw] mt-[8rem] ml-[17rem] gap-[40rem]'>
                         {/* ... rest of the code ... */}

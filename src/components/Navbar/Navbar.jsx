@@ -159,12 +159,15 @@ const Navbar = () => {
         <MenuItem onClick={handleLogout}>Logout</MenuItem>
       </Menu>
         </div>
-        ):(<button onClick={handleOpen} className='w-[8rem] border-solid border-2 rounded-full text-black px-4 py-1  hover:text-white hover:bg-green-400 hover:scale-90'>
+        ):(
+        <div className='max-sm:pl-10'>
+        <button onClick={handleOpen} className='w-[8rem] border-solid border-2 rounded-full text-black px-4 py-1  hover:text-white hover:bg-green-400 hover:scale-90 '>
           Login
-        </button >)}
-        
+        </button >
+        </div>)}
         <FaCartShopping onClick={handleAddToCart} className='hover:text-green-500'/>
         <AuthModal handleClose={handleClose} open={openAuthModal}/>
+       
       </div>
     </div>
   )
